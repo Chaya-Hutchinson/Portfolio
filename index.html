@@ -9,7 +9,8 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Chaya Hutchinson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -17,25 +18,35 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About Me</a>
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#experience">Experience</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
           </ul>
         </div>
       </nav>
-
-    <section class="about">
-        <div class="main">
-            <img src="\Users\dhutc\Downloads\instc 2022-07-29 225047.650.JPG" alt="Image Of Me">
-            <div class="about-text">
+  
+      <!-- About me section -->
+    <section id="about" class="bg-dark my-1 text-center">
+        <div class="container my-2">
+          <div class="row">
+            <div class="about-col-1">
+            <img src="\Users\dhutc\Downloads\instc 2022-07-29 225047.650.JPG" alt="Image Of Me" class="rounded-circle">
+                </div>
+            <div class="about-col-2">
                 <h2>
                     About Me
                 </h2>
@@ -45,8 +56,77 @@
                 <p>
                     My name is Chaya Hutchinson. I am currently a Junior Web Developer student.
                 </p>
+                  </div>
+                </div>
             </div>
         </div>
+      </section>
+    <!-- Experience -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2>Experience</h2>
+          </div>
+    <!-- Card group for experience. Section one -->
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Zaxby's - Cashier</h5>
+                <p class="card-text"><small class="text-muted">December 2017 - March 2019</small></p>
+                <ul class="card-text">
+                  <li>Provided services necessary for customer satisfaction</li>
+                  <li>Cleaned work area before, during and after shifts</li>
+                  <li>Maintained a professional relationship with teammates and customers alike</li>
+                </ul>
+              </div>
+            </div>
+  <!-- Card for experinece. Section two -->
+          <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">McDonalds - Kitchen Manager</h5>
+                <p class="card-text"><small class="text-muted">July 2019 - October 2021</small></p>
+                <ul class="card-text">
+                  <li>Ensured food safety procedures</li>
+                  <li>Steadily provided food for customers</li>
+                  <li>Trained crew members</li>
+                </ul>
+              </div>
+            </div>
+  <!-- Card for experinece. Section three -->
+          <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Elevation Connect - Travel Support Rep.</h5>
+                <p class="card-text"><small class="text-muted">March 2022 - December 2022</small></p>
+                <ul class="card-text">
+                  <li>Resolved guest issues with necessary de-escalation skills</li>
+                  <li>Assisted with modifying reservations and processing payments</li>
+                  <li>Provided feedback from calls and made important notes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <h4 data-aos="fade-up" data-aos-delay="300">Education</h4>
+            <div class="row gy-4">
+              <div class="col-12">
+                <div class="bg-base p-4 rounded-4 shadow-effect">
+                  <h5>Lee County High School</h5>
+                  <p class="text-brand">Robotics</p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 

@@ -1,27 +1,29 @@
 .navbar-nav {
     font-family:'Times New Roman', Times, serif;
 }
-.about {
-    width: 100%;
-    padding: 100px 0px;
-    background-color: #191919;
 
+/* about me */
+#about {
+    padding: 75px 75px;
+    color: #c96464;
 }
 
-.about img {
-    height: auto;
-    width: 430px;
-}
-
-.about-text {
-    width: 550px;
-}
-
-main{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
+.row {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
 }
