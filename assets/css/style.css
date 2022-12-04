@@ -1,9 +1,13 @@
 body {
     margin: 0;
+    font-family: 'Abril Fatface', cursive, 'Times New Roman', Times, serif;
+    ;
 }
 
-.navbar-nav {
-    font-family:'Times New Roman', Times, serif;
+.navbar-brand {
+    font-size: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 /* About section */
@@ -113,12 +117,48 @@ body {
 }
 
 /* Project section */
-.carousel-inner > .item > img {
+.carousel-inner {
+    position: relative;
     width:600px;
     height:600px;
     margin-top: 50px;
+    margin-bottom: 50px;
+    transition: transform 2s ease, opacity .5s ease-out;
   }
   
+.carousel-item {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+}
+
+#projects {
+    border-radius: 10px;
+    border-color: #000000;
+    border-style: groove;
+    box-shadow: 0 0 1rem 0;
+
+}
+
+.carousel-text {
+    float: left;
+    position: relative;
+    margin-right: 400px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 50em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.project-1 {
+    color: #000000;
+}
+
+.project-1-1 {
+    color: #000000;
+}
 
   /* Skills section */
 #skills {
@@ -148,6 +188,8 @@ body {
     list-style: none;
     cursor: default;
     font-size: 1.2em;
+    border-radius: 10%;
+    border-style: groove;
 }
  /* Contact */
  footer {
@@ -156,4 +198,19 @@ body {
  }
  .row {
     align-items: flex-end;
+ }
+
+ .to-top {
+   cursor: pointer;
+   display: block;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   text-align: center;
+   margin: 15px auto 0 auto;
+   color: #ffffff;
+ }
+
+ .col-sm-1 {
+    color: #000000;
  }
