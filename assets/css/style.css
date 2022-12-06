@@ -142,9 +142,9 @@ body {
 }
 
 .carousel-text {
-    float: left;
     position: relative;
     margin-right: 400px;
+    margin-top: 300px;
     margin-bottom: 0px;
     font-weight: 900;
     font-size: 50em;
